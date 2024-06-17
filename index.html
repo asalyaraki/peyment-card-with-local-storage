@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    
+</head>
+
+<body>
+    <main>
+        <ul id="list"></ul>
+        <section>
+            <div id="card">
+                <div id="front">
+                    <figure>
+                        <img src="assets/img/2 (3).jpg" alt="">
+                    </figure>
+                    <div id="printNum">
+                        <h2></h2>
+                        <h2></h2>
+                        <h2></h2>
+                        <h2></h2>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Card Holder</h3>
+                            <h2 id="name"></h2>
+                        </div>
+                        <div>
+                            <h3>valid till</h3>
+                            <hgroup id="valid">
+                                <h2></h2>
+                                <h3>/</h3>
+                                <h2></h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                </div>
+                <div id="back">
+                    <span></span>
+                    <div>
+                        <h4>CVV2</h4>
+                        <span>
+                            <h3 id="printCvv2"></h3>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div>
+                    <h4>Card Number</h4>
+                    <div id="cardNum">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <h4>Card Holder's Name</h4>
+                    <input id="holder" type="text">
+                    <h4>Valid Till</h4>
+                    <div id="date">
+                        <input placeholder="year" type="text">
+                        <input placeholder="month" type="text">
+                    </div>
+                    <h4>CVV2</h4>
+                    <input id="cvv2" type="text">
+                </div>
+                <button>Save Info</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+
+
+<script src="assets/js/master.js"></script>
+
+</html>
